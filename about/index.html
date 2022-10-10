@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang=""><head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+        <title>About me | Armaan Priyadarshan</title>
+        <meta name="description" content="About me">
+        <meta property="og:site_name" content="About me" />
+        <meta property="og:title" content="Armaan Priyadarshan" />
+        <meta property="og:description" content="About Me I&amp;rsquo;m Armaan, a sophomore at Saint John&amp;rsquo;s High School. I enjoy programming and hope to pursue a future in Computer Science. I create Artificial Intelligence and Machine Learning content on YouTube. I am proficient in Python and its various deep learning libraries, and most of my projects revolve around AI/ML and various other emerging technologies. My favorite subject is math, and the applications of differential calculus and linear algebra in AI/ML/DL are really cool to me."/>
+        <meta property="og:image" content="https://armaanpriyadarshan.github.io/img/author.jpg" />
+				<meta name="keywords" content=""/>
+    
+    
+    <meta name="keywords" content="armaan priyadarshan">
+    <link rel="icon" type="image/svg" href='https://armaanpriyadarshan.github.io/img/logo.png'/>
+    <meta name="author" content='armaan_priyadarshan'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.104.3" />
+    
+    <link rel="stylesheet" href="https://armaanpriyadarshan.github.io/sass/main.min.a669fc379ca0ba4d389af69be2682407e7bca16d368f2e7ad5b83c0cd80029b3.css" type="text/css" media="screen" >
+
+    <link rel="stylesheet" href="https://armaanpriyadarshan.github.io/css/style.css">
+
+    
+
+    
+    </head>
+
+<body>
+      <div class="line" id="scrollIndicator"></div>
+      <div class="main"><div class="title">
+  <div class="name">
+    <h2><a href="https://armaanpriyadarshan.github.io"
+	   style="text-decoration: none; color: inherit;">Armaan Priyadarshan</a></h2>
+  </div>
+  <div class="color-scheme">
+    <input type="checkbox" class="checkbox" id="chk" />
+    <label class="label" for="chk">
+						<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="moon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z"></path></svg>
+						<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sun" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 160c-52.9 0-96 43.1-96
+										96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm246.4 80.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.4-94.8c-6.4-12.8-24.6-12.8-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4c-12.8 6.4-12.8 24.6 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.4-33.5 47.3 94.7c6.4 12.8 24.6 12.8 31 0l47.3-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3c13-6.5 13-24.7.2-31.1zm-155.9 106c-49.9 49.9-131.1 49.9-181 0-49.9-49.9-49.9-131.1 0-181 49.9-49.9 131.1-49.9 181 0 49.9 49.9 49.9 131.1 0 181z"></path></svg>
+      <div class="ball"></div>
+    </label>
+  </div>
+</div>
+<script>
+  const themeSetter = (theme) => {
+      document.body.classList.toggle('dark')
+      localStorage.setItem('theme', theme)
+      blockSwitcher()
+  }
+
+  const blockSwitcher = () => [...document.getElementsByTagName("BLOCKQUOTE")]
+	.forEach(b => b.classList.toggle('dark'))
+
+  const styleSwapper = () => {
+      document.body.classList.add('back-transition')
+      if (localStorage.getItem('theme') === 'dark') themeSetter('light')
+      else if (localStorage.getItem('theme') === 'light') themeSetter('dark')
+  }
+
+  if (localStorage.getItem('theme') === 'dark'){
+      themeSetter('dark')
+      document.addEventListener("DOMContentLoaded", blockSwitcher)
+  }
+ else localStorage.setItem('theme', 'light')
+
+  document.getElementById('chk').addEventListener('change',styleSwapper);
+
+  window.addEventListener("scroll", () => {
+      let height = document.documentElement.scrollHeight
+          - document.documentElement.clientHeight;
+      if(height >= 500){
+	  let winScroll = document.body.scrollTop
+              || document.documentElement.scrollTop;
+	  let scrolled = (winScroll / height) * 100;
+	  document.getElementById("scrollIndicator").style.width = scrolled + "%";
+      }
+  });
+</script>
+
+
+<section class="intro">
+  
+<div>
+  <h1 id="about-me">About Me</h1>
+<p>I&rsquo;m Armaan, a sophomore at Saint John&rsquo;s High School. I enjoy programming and hope to pursue a future in Computer Science. I create Artificial Intelligence and Machine Learning content on YouTube. I am proficient in Python and its various deep learning libraries, and most of my projects revolve around AI/ML and various other emerging technologies. My favorite subject is math, and the applications of differential calculus and linear algebra in AI/ML/DL are really cool to me. I&rsquo;m learning Julia as it&rsquo;s a really good computational language.</p>
+<p>I&rsquo;m also a programmer for Massachusetts state-finalist FIRST Tech Challenge Team 12589 Pioneer Robotics. I&rsquo;m well-versed in robot programming and software development in Android Studio using Java and Kotlin. In addition, I&rsquo;m also learning the C family languages as well as data structures and algorithms to start competitive programming. You can find my resume <a href="https://drive.google.com/uc?export=download&amp;id=16qEBXYpft3UrvJT4vMGNT3I52LXv3CcU">here</a>.</p>
+<h2 id="extracurriculars">Extracurriculars</h2>
+<ul>
+<li>AI/ML content creation on YouTube with 82,000 views and counting</li>
+<li>Programmer for Massachusetts state-finalist FIRST Tech Challenge Team
+12589 Pioneer Robotics</li>
+<li>Coordinates and mentors two FIRST LEGO League teams from Miscoe Hill
+Middle School</li>
+<li>Math team</li>
+<li>Vice-president of Computer Science club at Saint John&rsquo;s, member of<br>
+art and photography club</li>
+</ul>
+<p><img src="/img/robotics.png" alt="robotics"></p>
+<h2 id="achievements">Achievements</h2>
+<ul>
+<li>Johns Hopkins Center for Talented Youth and Study of Exceptional Talent</li>
+<li>4.27/4.62 Unweighted/Weighted GPA</li>
+<li>35 ACT Composite Score, 36 Math, 36 Science</li>
+<li>AMC 8 Top 5%</li>
+<li>AMC 10 Certificate of Achievement</li>
+<li>MOEMS M Perfect Score</li>
+<li>RSM IMO 2nd Place Internationally</li>
+<li>MAML Highest Scorer in School</li>
+<li>Math Kangaroo 4th Place Internationally</li>
+<li>Saint John&rsquo;s Headmasters List</li>
+</ul>
+<h2 id="certifications">Certifications</h2>
+<ul>
+<li>AWS Certified Cloud Practitioner</li>
+<li>Azure A900 Certification</li>
+<li>Intel® Edge AI Fundamentals with OpenVINO™</li>
+<li>Stanford Online Supervised Machine Learning</li>
+<li>Stanford Online Neural Networks and Deep Learning</li>
+<li>Johns Hopkins CTY Advanced Java Course</li>
+</ul>
+<h2 id="sophomore-courses">Sophomore Courses</h2>
+<ul>
+<li>AP Calculus BC</li>
+<li>AP European History</li>
+<li>AP Computer Science</li>
+</ul>
+<h2 id="projects">Projects</h2>
+<ul>
+<li>Cross Country Timing and Tracking Software for the Saint John&rsquo;s Cross Country Team</li>
+<li><a href="https://www.youtube.com/watch?v=8PTF7oUti_c">Smart Glasses for Visual Question Answering Using Amazon Alexa and Multimodal AI</a></li>
+<li><a href="https://www.youtube.com/watch?v=24NDlSa3xbc">Skribbl.io bot using OpenAI&rsquo;s CLIP and dalle-mini</a></li>
+<li><a href="https://www.youtube.com/watch?v=VaBD-sB5aXU">First Person Shooter Aimbot using YOLOv5</a></li>
+<li><a href="https://www.youtube.com/watch?v=wtv_043sIrg">Unreal Engine NPC using GPT-3</a></li>
+<li><a href="https://www.youtube.com/watch?v=NhvtyY1Vd6A">NLP using GraphML with Spacy and TigerGraph</a></li>
+<li><a href="https://www.youtube.com/watch?v=3jTteM3dYkQ">Pill Counting in a Pharmacy Setting using the TensorFlow Object Detection API</a></li>
+<li><a href="https://www.instructables.com/Alexa-Voice-Controlled-Raspberry-Pi-Drone-With-IoT/">Voice-controlled Drone with the Raspberry Pi and Navio2</a></li>
+</ul>
+<p><img src="/img/drone.jpg" alt="drone"></p>
+<h2 id="interests">Interests</h2>
+<p>Apart from programming, I love to read, take photos, draw digital art, and play the alto saxophone. You can find some of my photos and art elsewhere on this site. When I get to it, I might start writing blog posts and book reviews. I also follow soccer and my favorite club is Juventus.</p>
+
+</div>
+
+</section>
+<footer id="footer">
+    <strong></strong>
+    <div class="social">
+        &nbsp; <a href="https://www.youtube.com/channel/UCT9t2Bug62RDUfSBcPt0Bzg" target="_blank" rel="noopener" title="Youtube"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a> &nbsp;&nbsp; <a href="https://github.com/armaanpriyadarshan" target="_blank" rel="noopener" title="Github"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a> &nbsp;&nbsp; <a href="mailto:armaan_priyadarshan@outlook.com" target="_blank" rel="noopener" title="Email"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/" target="_blank" rel="noopener" title="Linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a> &nbsp;
+    </div><strong></strong>
+    <p style="color:grey;">© 2022 Armaan Priyadarshan.  <a href="https://creativecommons.org/licenses/by/4.0/">Some rights reserved</a>.</p>
+</footer>
+</div>
+    </body>
+</html>
